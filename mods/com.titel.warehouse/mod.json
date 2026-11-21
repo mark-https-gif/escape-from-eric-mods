@@ -1,0 +1,20 @@
+﻿{
+    "schema":  1,
+    "id":  "com.titel.warehouse",
+    "name":  "Склад (карта)",
+    "author":  "TITEL",
+    "version":  "1.0.0",
+    "game":  "2.0.8",
+    "kind":  "map",
+    "protocol":  "lua",
+    "apiVersion":  1,
+    "entry":  "scripts/main.lua",
+    "file":  "com.titel.warehouse-1.0.0.efemod",
+    "size":  3016,
+    "sha256":  "e85b640b3c7dd5837d799d5aa22c9edbd1f1414a58af1e9c25447486ab137dd9",
+    "preview":  "mods/com.titel.warehouse/preview.png",
+    "tags":  [
+                 "official"
+             ],
+    "description":  "Карта-мод «Склад»: большая локация 60×40 м — стеллажи, ящики, лестницы и тёмные углы."
+}

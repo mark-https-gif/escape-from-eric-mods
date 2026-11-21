@@ -1,0 +1,20 @@
+﻿{
+    "schema":  1,
+    "id":  "com.titel.tips",
+    "name":  "Советы выживания",
+    "author":  "TITEL",
+    "version":  "1.0.0",
+    "game":  "2.0.8",
+    "kind":  "mod",
+    "protocol":  "lua",
+    "apiVersion":  1,
+    "entry":  "scripts/main.lua",
+    "file":  "com.titel.tips-1.0.0.efemod",
+    "size":  2152,
+    "sha256":  "b75e0b853f649e8d644aa94aa0f09395516e83e6271af46afdfd6e04c875e2bb",
+    "preview":  "mods/com.titel.tips/preview.png",
+    "tags":  [
+                 "official"
+             ],
+    "description":  "Советы выживания в HUD: подсказки раз в 45 секунд, чтобы не забыть про ключи и укрытия."
+}

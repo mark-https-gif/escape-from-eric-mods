@@ -1,0 +1,20 @@
+﻿{
+    "schema":  1,
+    "id":  "com.titel.radar",
+    "name":  "Карта Эрика",
+    "author":  "TITEL",
+    "version":  "1.0.0",
+    "game":  "2.0.8",
+    "kind":  "mod",
+    "protocol":  "lua",
+    "apiVersion":  1,
+    "entry":  "scripts/main.lua",
+    "file":  "com.titel.radar-1.0.0.efemod",
+    "size":  1981,
+    "sha256":  "8d488a8a00ef48a97ea81c75df1d7cd5765b5956e605cc3197f4cb0ba7192fec",
+    "preview":  "mods/com.titel.radar/preview.png",
+    "tags":  [
+                 "official"
+             ],
+    "description":  "Показывает карту города и путь к дому, а также метку Эрика, когда он рядом."
+}

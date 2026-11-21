@@ -1,0 +1,20 @@
+﻿{
+    "schema":  1,
+    "id":  "com.titel.stats",
+    "name":  "Статистика забега",
+    "author":  "TITEL",
+    "version":  "1.0.0",
+    "game":  "2.0.8",
+    "kind":  "mod",
+    "protocol":  "lua",
+    "apiVersion":  1,
+    "entry":  "scripts/main.lua",
+    "file":  "com.titel.stats-1.0.0.efemod",
+    "size":  1896,
+    "sha256":  "891c7588d11aca210bcd18ec8fb63f79abfc978bf2ca8fef0dd9d3d794eddb86",
+    "preview":  "mods/com.titel.stats/preview.png",
+    "tags":  [
+                 "official"
+             ],
+    "description":  "Статистика забега: дни, здоровье, собранные ключи и сколько раз Эрик был рядом."
+}

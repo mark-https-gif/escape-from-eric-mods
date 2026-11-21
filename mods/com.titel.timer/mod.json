@@ -1,0 +1,20 @@
+﻿{
+    "schema":  1,
+    "id":  "com.titel.timer",
+    "name":  "Таймер забега",
+    "author":  "TITEL",
+    "version":  "1.0.0",
+    "game":  "2.0.8",
+    "kind":  "mod",
+    "protocol":  "lua",
+    "apiVersion":  1,
+    "entry":  "scripts/main.lua",
+    "file":  "com.titel.timer-1.0.0.efemod",
+    "size":  1962,
+    "sha256":  "145af9033fb5ca73c215ce9d392b64d2c80830b595392c254d56d6914dc56c45",
+    "preview":  "mods/com.titel.timer/preview.png",
+    "tags":  [
+                 "official"
+             ],
+    "description":  "Таймер забега: время в HUD, история дней и лучший результат."
+}
