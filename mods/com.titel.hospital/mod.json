@@ -1,0 +1,16 @@
+{
+    "schema":  1,
+    "id":  "com.titel.hospital",
+    "name":  "Больница",
+    "author":  "TITEL",
+    "version":  "1.0.0",
+    "game":  "2.3.10",
+    "file":  "com.titel.hospital-1.0.0.efemap",
+    "size":  3783,
+    "sha256":  "ace50bca65e7c6f42d524e82c6a3e6cd419e22c5d86c2f7d8a40e4268022dadc",
+    "preview":  "mods/com.titel.hospital/preview.png",
+    "tags":  [
+                 "official"
+             ],
+    "description":  "Карта-мод: заброшенная больница 50x36 - палаты, коридоры, операционная."
+}
