@@ -1,0 +1,16 @@
+{
+    "schema":  1,
+    "id":  "com.titel.horror_house",
+    "name":  "Хоррор-дом",
+    "author":  "TITEL",
+    "version":  "1.0.0",
+    "game":  "2.3.10",
+    "file":  "com.titel.horror_house-1.0.0.efemap",
+    "size":  4602,
+    "sha256":  "3a84cd380ee41163570102f24d6e4de6cca16b949fdc84c587570f810383ee72",
+    "preview":  "mods/com.titel.horror_house/preview.png",
+    "tags":  [
+                 "official"
+             ],
+    "description":  "Тёмный дом 60x40: шорохи, холод по спине, внезапный туман и ускорение Эрика."
+}
