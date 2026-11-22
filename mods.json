@@ -1,86 +1,86 @@
 {
-    "schema":  1,
-    "updated":  "2026-11-21",
-    "mods":  [
-                 {
-                     "id":  "com.titel.radar",
-                     "name":  "Карта Эрика",
-                     "author":  "TITEL",
-                     "version":  "1.0.0",
-                     "game":  "2.0.8",
-                     "path":  "mods/com.titel.radar",
-                     "file":  "mods/com.titel.radar/com.titel.radar-1.0.0.efemod",
-                     "preview":  "mods/com.titel.radar/preview.png",
-                     "size":  1981,
-                     "sha256":  "8d488a8a00ef48a97ea81c75df1d7cd5765b5956e605cc3197f4cb0ba7192fec",
-                     "tags":  [
-                                  "official"
-                              ],
-                     "description":  "Показывает карту города и путь к дому, а также метку Эрика, когда он рядом."
-                 },
-                 {
-                     "id":  "com.titel.stats",
-                     "name":  "Статистика забега",
-                     "author":  "TITEL",
-                     "version":  "1.0.0",
-                     "game":  "2.0.8",
-                     "path":  "mods/com.titel.stats",
-                     "file":  "mods/com.titel.stats/com.titel.stats-1.0.0.efemod",
-                     "preview":  "mods/com.titel.stats/preview.png",
-                     "size":  1896,
-                     "sha256":  "891c7588d11aca210bcd18ec8fb63f79abfc978bf2ca8fef0dd9d3d794eddb86",
-                     "tags":  [
-                                  "official"
-                              ],
-                     "description":  "Статистика забега: дни, здоровье, собранные ключи и сколько раз Эрик был рядом."
-                 },
-                 {
-                     "id":  "com.titel.timer",
-                     "name":  "Таймер забега",
-                     "author":  "TITEL",
-                     "version":  "1.0.0",
-                     "game":  "2.0.8",
-                     "path":  "mods/com.titel.timer",
-                     "file":  "mods/com.titel.timer/com.titel.timer-1.0.0.efemod",
-                     "preview":  "mods/com.titel.timer/preview.png",
-                     "size":  1962,
-                     "sha256":  "145af9033fb5ca73c215ce9d392b64d2c80830b595392c254d56d6914dc56c45",
-                     "tags":  [
-                                  "official"
-                              ],
-                     "description":  "Таймер забега: время в HUD, история дней и лучший результат."
-                 },
-                 {
-                     "id":  "com.titel.tips",
-                     "name":  "Советы выживания",
-                     "author":  "TITEL",
-                     "version":  "1.0.0",
-                     "game":  "2.0.8",
-                     "path":  "mods/com.titel.tips",
-                     "file":  "mods/com.titel.tips/com.titel.tips-1.0.0.efemod",
-                     "preview":  "mods/com.titel.tips/preview.png",
-                     "size":  2152,
-                     "sha256":  "b75e0b853f649e8d644aa94aa0f09395516e83e6271af46afdfd6e04c875e2bb",
-                     "tags":  [
-                                  "official"
-                              ],
-                     "description":  "Советы выживания в HUD: подсказки раз в 45 секунд, чтобы не забыть про ключи и укрытия."
-                 },
-                 {
-                     "id":  "com.titel.warehouse",
-                     "name":  "Склад (карта)",
-                     "author":  "TITEL",
-                     "version":  "1.0.0",
-                     "game":  "2.0.8",
-                     "path":  "mods/com.titel.warehouse",
-                     "file":  "mods/com.titel.warehouse/com.titel.warehouse-1.0.0.efemod",
-                     "preview":  "mods/com.titel.warehouse/preview.png",
-                     "size":  3016,
-                     "sha256":  "e85b640b3c7dd5837d799d5aa22c9edbd1f1414a58af1e9c25447486ab137dd9",
-                     "tags":  [
-                                  "official"
-                              ],
-                     "description":  "Карта-мод «Склад»: большая локация 60×40 м — стеллажи, ящики, лестницы и тёмные углы."
-                 }
-             ]
+    "schema": 1,
+    "updated": "2026-11-22",
+    "mods": [
+        {
+            "id": "com.titel.radar",
+            "name": "Карта Эрика",
+            "author": "TITEL",
+            "version": "1.0.0",
+            "game": "2.0.8",
+            "path": "mods/com.titel.radar",
+            "file": "mods/com.titel.radar/com.titel.radar-1.0.0.efemod",
+            "preview": "mods/com.titel.radar/preview.png",
+            "size": 1981,
+            "sha256": "8d488a8a00ef48a97ea81c75df1d7cd5765b5956e605cc3197f4cb0ba7192fec",
+            "tags": [
+                "official"
+            ],
+            "description": "Показывает карту города и путь к дому, а также метку Эрика, когда он рядом."
+        },
+        {
+            "id": "com.titel.stats",
+            "name": "Статистика забега",
+            "author": "TITEL",
+            "version": "1.0.0",
+            "game": "2.0.8",
+            "path": "mods/com.titel.stats",
+            "file": "mods/com.titel.stats/com.titel.stats-1.0.0.efemod",
+            "preview": "mods/com.titel.stats/preview.png",
+            "size": 1896,
+            "sha256": "891c7588d11aca210bcd18ec8fb63f79abfc978bf2ca8fef0dd9d3d794eddb86",
+            "tags": [
+                "official"
+            ],
+            "description": "Статистика забега: дни, здоровье, собранные ключи и сколько раз Эрик был рядом."
+        },
+        {
+            "id": "com.titel.timer",
+            "name": "Таймер забега",
+            "author": "TITEL",
+            "version": "1.0.0",
+            "game": "2.0.8",
+            "path": "mods/com.titel.timer",
+            "file": "mods/com.titel.timer/com.titel.timer-1.0.0.efemod",
+            "preview": "mods/com.titel.timer/preview.png",
+            "size": 1962,
+            "sha256": "145af9033fb5ca73c215ce9d392b64d2c80830b595392c254d56d6914dc56c45",
+            "tags": [
+                "official"
+            ],
+            "description": "Таймер забега: время в HUD, история дней и лучший результат."
+        },
+        {
+            "id": "com.titel.tips",
+            "name": "Советы выживания",
+            "author": "TITEL",
+            "version": "1.0.0",
+            "game": "2.0.8",
+            "path": "mods/com.titel.tips",
+            "file": "mods/com.titel.tips/com.titel.tips-1.0.0.efemod",
+            "preview": "mods/com.titel.tips/preview.png",
+            "size": 2152,
+            "sha256": "b75e0b853f649e8d644aa94aa0f09395516e83e6271af46afdfd6e04c875e2bb",
+            "tags": [
+                "official"
+            ],
+            "description": "Советы выживания в HUD: подсказки раз в 45 секунд, чтобы не забыть про ключи и укрытия."
+        },
+        {
+            "id": "com.titel.warehouse",
+            "name": "Склад (карта)",
+            "author": "TITEL",
+            "version": "1.0.0",
+            "game": "2.0.8",
+            "path": "mods/com.titel.warehouse",
+            "file": "mods/com.titel.warehouse/com.titel.warehouse-1.0.0.efemod",
+            "preview": "mods/com.titel.warehouse/preview.png",
+            "size": 3016,
+            "sha256": "e85b640b3c7dd5837d799d5aa22c9edbd1f1414a58af1e9c25447486ab137dd9",
+            "tags": [
+                "official"
+            ],
+            "description": "Карта-мод «Склад»: большая локация 60×40 м — стеллажи, ящики, лестницы и тёмные углы."
+        }
+    ]
 }
