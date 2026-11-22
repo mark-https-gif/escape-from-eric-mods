@@ -1,0 +1,16 @@
+{
+    "schema":  1,
+    "id":  "com.titel.fog",
+    "name":  "Туман",
+    "author":  "TITEL",
+    "version":  "1.0.0",
+    "game":  "2.3.10",
+    "file":  "com.titel.fog-1.0.0.efemod",
+    "size":  2886,
+    "sha256":  "fb7c5244ef60572f3f7f201f62d7217cce9aabd4474ae0c0e1bedbc1230589b7",
+    "preview":  "mods/com.titel.fog/preview.png",
+    "tags":  [
+                 "official"
+             ],
+    "description":  "Туман то сгущается, то отпускает; когда Эрик рядом - предупреждение и ускорение."
+}

@@ -97,6 +97,22 @@
                                   "official"
                               ],
                      "description":  "Карта-мод: заброшенная больница 50x36 - палаты, коридоры, операционная."
+                 },
+                 {
+                     "id":  "com.titel.fog",
+                     "name":  "Туман",
+                     "author":  "TITEL",
+                     "version":  "1.0.0",
+                     "game":  "2.3.10",
+                     "path":  "mods/com.titel.fog",
+                     "file":  "mods/com.titel.fog/com.titel.fog-1.0.0.efemod",
+                     "preview":  "mods/com.titel.fog/preview.png",
+                     "size":  2886,
+                     "sha256":  "fb7c5244ef60572f3f7f201f62d7217cce9aabd4474ae0c0e1bedbc1230589b7",
+                     "tags":  [
+                                  "official"
+                              ],
+                     "description":  "Туман то сгущается, то отпускает; когда Эрик рядом - предупреждение и ускорение."
                  }
              ]
 }
