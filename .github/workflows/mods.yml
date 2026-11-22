@@ -1,0 +1,60 @@
+name: mods
+
+# Приём модов через GitHub:
+#   1. модер добавляет mods/<id>/ (mod.json + .efemod + preview.png);
+#   2. открывает Pull Request;
+#   3. CI проверяет sha256, размер, запрещённые файлы и подпись Ed25519;
+#   4. после мержа в main mods.json пересобирается автоматически;
+#   5. мод появляется в Erik ModShop в игре.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Установить проверку подписи
+        run: pip install pynacl
+
+      - name: Проверить каталог модов
+        run: python scripts/check_mods.py
+
+  catalog:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Установить проверку подписи
+        run: pip install pynacl
+
+      - name: Пересобрать mods.json
+        run: python scripts/check_mods.py --write
+
+      - name: Закоммитить каталог
+        run: |
+          if git diff --quiet -- mods.json; then
+            echo "mods.json без изменений"
+            exit 0
+          fi
+          git config user.name "TITEL"
+          git config user.email "titel@local"
+          git add mods.json
+          git commit -m "Каталог модов обновлён"
+          git push
